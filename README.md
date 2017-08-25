@@ -14,7 +14,7 @@
 
 [img的title和alt有什么区别](#img的title和alt有什么区别)
 
-
+[HTML全局属性(global attribute)有哪些](#html全局属性有哪些)
 
 
 
@@ -154,4 +154,25 @@ IE 的content   部分包含了 border 和 pading;
 
 1. title是[global attributes](http://www.w3.org/TR/html-markup/global-attributes.html#common.attrs.core)之一，用于为元素提供附加的advisory information(咨询信息)。通常当鼠标滑动到元素上的时候显示。
 2. alt是<img>的特有属性，是图片内容的等价描述，用于图片无法加载时显示、读屏器阅读图片。可提图片高可访问性，除了纯装饰图片外都必须设置有意义的值，搜索引擎会重点分析。
+
+
+
+### html全局属性有哪些
+
+- accesskey:设置快捷键，提供快速访问元素如[aaa](https://github.com/qiu-deqing/FE-interview#)在windows下的firefox中按alt + shift + a可激活元素
+- class:为元素设置类标识，多个类名用空格分开，CSS和javascript可通过class属性获取元素
+- contenteditable: 指定元素内容是否可编辑
+- contextmenu: 自定义鼠标右键弹出菜单内容
+- data-*: 为元素增加自定义属性
+- dir: 设置元素文本方向
+- draggable: 设置元素是否可拖拽
+- dropzone: 设置元素拖放类型： copy, move, link
+- hidden: 表示一个元素是否与文档。样式上会导致元素不显示，但是不能用这个属性实现样式效果
+- id: 元素id，文档内唯一
+- lang: 元素内容的的语言
+- spellcheck: 是否启动拼写和语法检查
+- style: 行内css样式
+- tabindex: 设置元素可以获得焦点，通过tab可以导航
+- title: 元素相关的建议信息
+- translate: 元素和子孙节点内容是否需要本地化
 
