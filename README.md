@@ -8,6 +8,8 @@
 
 [CSS的盒模型](#CSS的盒模型)
 
+[link和@import 的区别是什么](#link和@import 的区别是什么)
+
 
 
 
@@ -73,4 +75,16 @@ box-sizing   两种 content-box 标准盒模型   border-box  IE 盒模型
 标准盒模型： 内容(content)、填充(padding)、边界(margin)、 边框(border)
 
 IE 的content   部分包含了 border 和 pading;
+
+
+
+### link和@import 的区别是什么
+
+1.ink属于XHTML标签，而@import完全是CSS提供的一种方式;
+
+2.页面被加载的时候，link-会同时被加载，而@import引用的CSS会等到页面被加载完再加载;
+
+3.import只有在IE5以上的才能识别，而link是XHTML标签，无兼容问题;
+
+4.link方式的样式的权重 高于@import的权重.
 
