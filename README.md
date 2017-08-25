@@ -2,9 +2,7 @@
 
 [web开发中会话跟踪的方法有哪些](#web开发中会话跟踪的方法有哪些)
 
-[Doctype作用以及严格模式与混杂模式如何触发](#Doctype作用)
-
-
+[doctype作用](#doctype作用)
 
 
 
@@ -23,12 +21,18 @@
 ### web开发中会话跟踪的方法有哪些
 
 1. cookie
+
 2. session
+
 3. url重写
+
 4. 隐藏input
+
 5. ip地址
 
-### Doctype作用
+   ​
+
+### doctype作用
 
 1. <!DOCTYPE> 声明位于文档中的最前面，处于 <html> 标签之前。告知浏览器的解析器，
 
