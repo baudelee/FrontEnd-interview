@@ -90,6 +90,8 @@ IE 的content   部分包含了 border 和 pading;
 
 ### CSS选择符属性继承
 
+
+
 ##### CSS 选择符：
 
 1. id选择器(# myid)
@@ -128,11 +130,11 @@ IE 的content   部分包含了 border 和 pading;
 
 ##### CSS3新增伪类举例：
 
-1. p:first-of-type  选择属于其父元素的首个 <p> 元素的每个 <p> 元素。
-2. p:last-of-type   选择属于其父元素的最后 <p> 元素的每个 <p> 元素。
-3. p:only-of-type  选择属于其父元素唯一的 <p> 元素的每个 <p> 元素。
-4. p:only-child     选择属于其父元素的唯一子元素的每个 <p> 元素。
-5. p:nth-child(2)  选择属于其父元素的第二个子元素的每个 <p> 元素。
+1. p:first-of-type  选择属于其父元素的首个 p 元素的每个 p 元素。
+2. p:last-of-type   选择属于其父元素的最后 p 元素的每个 p元素。
+3. p:only-of-type  选择属于其父元素唯一的 p元素的每个 p 元素。
+4. p:only-child     选择属于其父元素的唯一子元素的每个p 元素。
+5. p:nth-child(2)  选择属于其父元素的第二个子元素的每个p 元素。
 6. :enabled :disabled 控制表单控件的禁用状态。
 7. :checked         单选框或复选框被选中。
 
