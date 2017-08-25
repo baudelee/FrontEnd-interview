@@ -12,6 +12,8 @@
 
 [CSS选择符属性继承优先级算法以及CSS3新增伪类新特性](#css选择符属性继承优先级算法以及css3新增伪类新特性)
 
+[img的title和alt有什么区别](#img的title和alt有什么区别)
+
 
 
 
@@ -145,3 +147,11 @@ IE 的content   部分包含了 border 和 pading;
 5. 在CSS3中唯一引入的伪元素是 ::selection.
 6. 媒体查询，多栏布局
 7. border-image
+
+
+
+### img的title和alt有什么区别
+
+1. title是[global attributes](http://www.w3.org/TR/html-markup/global-attributes.html#common.attrs.core)之一，用于为元素提供附加的advisory information(咨询信息)。通常当鼠标滑动到元素上的时候显示。
+2. alt是<img>的特有属性，是图片内容的等价描述，用于图片无法加载时显示、读屏器阅读图片。可提图片高可访问性，除了纯装饰图片外都必须设置有意义的值，搜索引擎会重点分析。
+
