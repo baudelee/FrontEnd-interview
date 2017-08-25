@@ -10,7 +10,7 @@
 
 [link和import的区别是什么](#link和import的区别是什么)
 
-[CSS选择符属性继承优先级算法以及CSS3新增伪类新特性](#CSS选择符属性继承)
+[CSS选择符属性继承优先级算法以及CSS3新增伪类新特性](#css选择符属性继承)
 
 
 
@@ -88,7 +88,7 @@ IE 的content   部分包含了 border 和 pading;
 
 
 
-### CSS选择符属性继承
+### css选择符属性继承
 
 
 
