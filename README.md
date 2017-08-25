@@ -8,7 +8,7 @@
 
 [CSS的盒模型](#CSS的盒模型)
 
-[link和import 的区别是什么](#link和import 的区别是什么)
+[link和import的区别是什么](#link和import的区别是什么)
 
 
 
@@ -76,7 +76,7 @@ IE 的content   部分包含了 border 和 pading;
 
 
 
-### link和import 的区别是什么
+### link和import的区别是什么
 
 1.link属于XHTML标签，而@import完全是CSS提供的一种方式;
 
