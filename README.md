@@ -26,7 +26,7 @@
 
 [如何创建块级格式化上下文(block formatting context),BFC有什么用](#如何创建块级格式化上下文bfc有什么用)
 
-
+[offsetWidth/offsetHeight,clientWidth/clientHeight与Width/scrollHeight的区别](#offset和client和scroll的width区别)
 
 
 
@@ -439,3 +439,11 @@ z轴上的默认层叠顺序如下（从下到上）：
 3. a flex item with a z-index value other than 'auto'
 4. opacity小于1的元素
 5. 在移动端webkit和chrome22+，z-index为auto，position: fixed也将创建新的stacking context
+
+
+
+### offset和client和scroll的width区别
+
+- offsetWidth/offsetHeight返回值包含**content + padding + border**，效果与e.getBoundingClientRect()相同
+- clientWidth/clientHeight返回值只包含**content + padding**，如果有滚动条，也**不包含滚动条**
+- scrollWidth/scrollHeight返回值包含**content + padding + 溢出内容的尺寸 **
