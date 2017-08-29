@@ -298,7 +298,9 @@ height: 100vmin; width: 100vmin;
 }
 ```
 
-[![img](https://lucius0.github.io/images/css/css-24.png)](https://lucius0.github.io/images/css/css-24.png)
+![img](./assets/vminx.png)
+
+
 
 如果你需要一个总是覆盖可视窗口的正方形(一直接触屏幕的四条边),使用相同的规则只是把单位换成`vmax`。
 
@@ -308,7 +310,7 @@ height: 100vmax; width: 100vmax;
 }
 ```
 
-[![img](https://lucius0.github.io/images/css/css-25.png)]()
+![img](./assets/vmax.png)
 
 这些规则的组合提供了一个非常灵活的方式，用新的、令人兴奋的方式利用你的可视窗口的大小。
 
