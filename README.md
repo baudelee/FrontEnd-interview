@@ -30,6 +30,10 @@
 
 
 
+
+
+# 真的很痛心，今天不得不说国内的文章大部分是错的或者过时的，全是人云亦云，全抄袭。尤其是国内几个大论坛，上了还误人子弟
+
 ### 前端需要注意哪些SEO
 
 1. 合理的title、description、keywords：搜索对着三项的权重逐个减小，title值强调重点即可，重要关键词出现不要超过2次，而且要靠前，不同页面title要有所不同；description把页面内容高度概括，长度合适，不可过分堆砌关键词，不同页面description有所不同；keywords列举出重要关键词即可
@@ -447,3 +451,8 @@ z轴上的默认层叠顺序如下（从下到上）：
 - offsetWidth/offsetHeight返回值包含**content + padding + border**，效果与e.getBoundingClientRect()相同
 - clientWidth/clientHeight返回值只包含**content + padding**，如果有滚动条，也**不包含滚动条**
 - scrollWidth/scrollHeight返回值包含**content + padding + 溢出内容的尺寸 **
+
+
+
+
+
